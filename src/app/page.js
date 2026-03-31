@@ -23,25 +23,6 @@ export default function LandingPage() {
         }}
       />
 
-      {/* Title */}
-      <motion.h1
-        className="text-3xl font-bold mb-2 bg-gradient-to-r from-cyan-400 via-teal-400 to-green-500 bg-clip-text text-transparent"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.5 }}
-      >
-        ONE TO ONE
-      </motion.h1>
-
-      {/* Subtitle */}
-      <motion.p
-        className="text-gray-400 mb-8"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.8 }}
-      >
-        One Vision. One Goal
-      </motion.p>
 
       {/* Coming Soon Animation */}
       <motion.div
